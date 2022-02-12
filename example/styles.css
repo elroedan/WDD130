@@ -1,0 +1,15 @@
+main {
+  max-width: 968px;
+  margin: 0 auto;
+}
+.container {
+  display: grid;
+
+  grid-template-columns: repeat(6, 1fr);
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; is the same thing as the top*/
+  grid-gap: 10px;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
