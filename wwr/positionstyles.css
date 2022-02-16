@@ -149,8 +149,8 @@
 /* Activity 6 styles */
 .content6 {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(6, 100px);
+  grid-template-rows: repeat(6, 100px);
   /* This is the parent of the activity 6 boxes. */
 }
 .red6 {
@@ -173,7 +173,7 @@
 .yellow6 {
   width: 200px;
   height: 400px;
-  grid-column: 4/6;
+  grid-column: 5/7;
   grid-row: 3/7;
   background-color: gold;
   z-index: 3;

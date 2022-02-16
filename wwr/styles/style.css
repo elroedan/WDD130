@@ -16,6 +16,11 @@ body {
   padding-top: 5px;
 }
 nav a {
+  text-align: center;
+  color: #fcfbfb;
+  text-decoration: none;
+}
+nav a {
   text-decoration: none;
   color: #d4f2db;
   padding: 35px;
@@ -87,6 +92,7 @@ footer {
   text-align: left;
   font-family: "slab";
   margin-top: 200px;
+  text-decoration: none;
 }
 .social {
   text-align: left;
@@ -122,6 +128,10 @@ html {
   padding: 15px 30px;
   margin-top: 50px;
   border-radius: 5px;
+}
+#background {
+  height: 725px;
+  background-color: #5e6269;
 }
 .icon {
   padding-top: 10px;
