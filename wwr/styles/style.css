@@ -53,6 +53,7 @@ hr {
 nav {
   display: flex;
   justify-content: space-around;
+  /* opacity: 0.5; */
 }
 #logo_link {
   padding-top: 5px;
@@ -110,7 +111,8 @@ header {
   grid-template-columns: 150px auto;
   text-align: left;
   color: var(--paragraph-color-on-color);
-  background-color: #5e6269;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* opacity: 0.5; */
   /* padding: 0%; */
 }
 header > h1,
@@ -146,7 +148,6 @@ footer h3 {
 footer {
   background-color: #5e6269;
   text-align: left;
-
   font-family: "slab";
   margin-top: 200px;
   padding: 25px 50px;
