@@ -142,8 +142,9 @@ p {
 /* h2 {
   background-color: #5e6269;
 } */
-footer h3 {
-  color: black;
+footer h3,
+a {
+  color: #001d3d;
 }
 footer {
   background-color: #5e6269;
