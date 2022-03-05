@@ -188,6 +188,10 @@ a {
   background-color: white;
 }
 @media screen and (max-width: 900px) {
+  h3 {
+    font-family: "Zilla Slab";
+    font-size: 2em;
+  }
   header {
     display: grid;
     grid-template-columns: 150px auto;
@@ -351,10 +355,6 @@ a {
   footer h3,
   a {
     color: #001d3d;
-  }
-  h3 {
-    font-family: "Zilla Slab";
-    font-size: 2em;
   }
   #content {
     display: grid;
