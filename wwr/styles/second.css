@@ -35,7 +35,7 @@ h1 {
 .schedule {
   display: grid;
   justify-content: center;
-  background-color: none;
+  /* background-color: none; */
   grid-row: 2;
   z-index: 1;
   grid-column: 2/5;
@@ -170,7 +170,7 @@ a {
 #content {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 1fr, 2fr, 2fr, 1fr;
+  grid-template-rows: 1fr 2fr 2fr 1fr;
 }
 #hero {
   display: grid;
@@ -220,7 +220,7 @@ a {
   .schedule {
     display: grid;
     justify-content: center;
-    background-color: none;
+    /* background-color: none; */
     grid-row: 2;
     z-index: 1;
     grid-column: 2/5;
@@ -359,7 +359,7 @@ a {
   #content {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr, 2fr, 2fr, 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
   }
   #hero {
     display: grid;
