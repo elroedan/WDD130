@@ -1,0 +1,12 @@
+.frontimg {
+  width: 100%;
+}
+.frontimg > img {
+  width: 100%;
+}
+.scroll > img {
+  width: 100%;
+}
+.box {
+  width: 100%;
+}
