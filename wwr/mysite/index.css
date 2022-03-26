@@ -27,7 +27,7 @@ nav a {
   color: white;
   font-family: cursive;
   text-decoration: none;
-  size: 16px;
+  /* size: 16px; */
 }
 nav a:hover {
   color: black;
@@ -235,6 +235,9 @@ h3 {
   color: #001d3d;
 
   border: solid #e5e5e5;
+}
+.bronco {
+  width: 100%;
 }
 .box:hover {
   border-color: #717171;
